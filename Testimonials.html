@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Perfume Paradise</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        section h1 {
+            font-size: 64px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 32px;
+            line-height: 1.5;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="CONDA_proj.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+            <li><a href="FindUs.html">Find Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="testimonials">
+            <h1>Testimonials</h1>
+            <p>See what our satisfied customers have to say about our perfumes.</p>
+            <!-- Add customer testimonials -->
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="rating">Rating:</label><br>
+                <input type="radio" id="rating1" name="rating" value="5" checked>
+                <label for="rating1">5</label>
+                <input type="radio" id="rating2" name="rating" value="4">
+                <label for="rating2">4</label>
+                <input type="radio" id="rating3" name="rating" value="3">
+                <label for="rating3">3</label>
+                <input type="radio" id="rating4" name="rating" value="2">
+                <label for="rating4">2</label>
+                <input type="radio" id="rating5" name="rating" value="1">
+                <label for="rating5">1</label><br><br>
+
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Perfume Paradise. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+

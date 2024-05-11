@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Us - Perfume Paradise</title>
+    <style>
+        /* Your CSS styles here */
+        /* Reset default margin and padding */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        section h1 {
+            font-size: 64px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 32px;
+            line-height: 1.5;
+        }
+
+        section img {
+            max-width: 70%;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Center the image */
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="CONDA_proj.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="FindUs.html">Find Us</a></li> <!-- New link for Find Us page -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section id="find_us">
+                <h1>Find Us</h1>
+                <p>Find our store location on the map below:</p>
+                <!-- Image Map -->
+                <img src="store.jpg" alt="Map with store location" usemap="#storemap">
+                <map name="storemap">
+                    <area shape="rect" coords="0,0,200,200" alt="Store Area" href="store_location.html">
+                </map>
+
+                <!-- Google Map iframe -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.63331540262!2d-74.11976372479851!3d40.697663751476276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a2bc32210c5%3A0xa33b8c8b4229c27d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1623837015717!5m2!1sen!2s" 
+                width="1000" height="450" alignmenmt="center"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+           
